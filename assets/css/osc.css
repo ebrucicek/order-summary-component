@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  background-color: #edf3fa;
+}
+
+.content {
+  width: 450px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0px 40px 40px -20px #0D30BD27;
+}
+
+.content img {
+  margin-bottom: 56px;
+}
+
+.content h1 {
+  font-size: 28px;
+  font-weight: 900;
+  color: #1F2E55;
+  margin-bottom: 17px;
+}
+
+.content p {
+  color: #717FA6;
+  font-weight: 500;
+  margin-bottom: 58px;
+  padding-inline: 48px;
+  text-align: center;
+}
+
+.proceed-btn {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 900;
+  background-color: #382ae1;
+  box-shadow: 0px 20px 20px 0px #382AE131;
+  padding: 17px 102px;
+  border-radius: 11px;
+  text-decoration: none;
+  margin-bottom: 19px;
+}
+
+.cancel-btn {
+  color: #717FA6;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 900;
+  margin-bottom: 53px;
+}
